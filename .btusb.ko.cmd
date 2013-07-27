@@ -1,0 +1,1 @@
+cmd_/research/Devel/Bluetooth2/btusb.ko := ld -r -m elf_x86_64 -T /usr/src/linux-3.6.5-1-ARCH/scripts/module-common.lds --build-id  -o /research/Devel/Bluetooth2/btusb.ko /research/Devel/Bluetooth2/btusb.o /research/Devel/Bluetooth2/btusb.mod.o
